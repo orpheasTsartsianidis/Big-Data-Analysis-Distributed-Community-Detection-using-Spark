@@ -1,0 +1,7 @@
+name := "sparkLouvain"
+version := "0.1"
+scalaVersion := "2.11.8"
+libraryDependencies += "org.apache.spark" %% "spark-core" % "2.4.0"
+libraryDependencies += "org.apache.spark" %% "spark-graphx" % "2.4.0"
+libraryDependencies += "joda-time" % "joda-time" % "2.10.6"
+libraryDependencies += "net.sf.opencsv" % "opencsv" % "2.3"
